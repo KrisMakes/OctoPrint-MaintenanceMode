@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+recursive-include octoprint_maintenance_mode/templates *
+recursive-include octoprint_maintenance_mode/static *

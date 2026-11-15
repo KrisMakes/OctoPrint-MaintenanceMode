@@ -1,0 +1,16 @@
+#navbar_plugin_maintenance_mode .maintenance-mode-link {
+    position: relative;
+    display: inline-block;
+    font-size: 1.4em;
+}
+
+/* The bolt sits inside the padlock body, so one glyph reads as "power held". */
+#navbar_plugin_maintenance_mode .maintenance-mode-spark {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.45em;
+    color: #ffffff;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.9);
+}
